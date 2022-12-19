@@ -6,13 +6,12 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 const basePromptPrefix = `
-Write me a fan fiction story in the style of R.J. Anderson with the title below.
+Give me a summary of the overall sentiment of
 
-Title:
 `;
 const generateAction = async (req, res) => {
   // Run first prompt
-  console.log(`API CALL: ${basePromptPrefix}${req.body.userInput}\n`)
+  console.log(`API CALL: ${basePromptPrefix}${req.body.userInput}\n Summary: \n`)
 
   const baseCompletion = await openai.createCompletion({
     model: 'text-davinci-003',

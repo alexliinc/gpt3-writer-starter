@@ -44,16 +44,17 @@ const onUserChangedText = (event) => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Generate a short story with a Title</h1>
+            <h1>Get a Summary of the overall sentiment for any reviews</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Write a good title to be turned into a fan fiction</h2>
+            <h2>We give you a consise summary for all the reviews of anything. e.g. restraunt, stores, household items</h2>
+            <h2>Just paste the link to the reviews</h2>
           </div>
         </div>
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="start typing here"
+            placeholder="paste link here"
             value={userInput}
             onChange={onUserChangedText}
           />;
