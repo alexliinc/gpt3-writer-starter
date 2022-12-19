@@ -44,10 +44,10 @@ const onUserChangedText = (event) => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Get a Summary of the overall sentiment for any reviews</h1>
+            <h1>Get a summary of the overall sentiment for any reviews</h1>
           </div>
           <div className="header-subtitle">
-            <h2>We give you a consise summary for all the reviews of anything. e.g. restraunt, stores, household items</h2>
+            <h2>We give you a concise summary for all the reviews of anything. e.g. restaurant, stores, household items</h2>
             <h2>Just paste the link to the reviews</h2>
           </div>
         </div>
